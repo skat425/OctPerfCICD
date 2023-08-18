@@ -56,6 +56,6 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Execute Octoper Test Scenario
-      run: 
-        mvn package -Dapi=${{inputs.api_key}} -Dworkspace=${{inputs.workspace}} -Dproject=${{inputs.project}} -Dscenario=${{inputs.scenario}}
-        mvn octoperf:execute-scenario
+      run: mvn octoperf:execute-scenario
+        #mvn package -Dapi=${{inputs.api_key}} -Dworkspace=${{inputs.workspace}} -Dproject=${{inputs.project}} -Dscenario=${{inputs.scenario}}
+        
