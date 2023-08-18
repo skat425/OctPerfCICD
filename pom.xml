@@ -13,7 +13,7 @@
       <plugin>
         <groupId>com.octoperf</groupId>
         <artifactId>octoperf-maven-plugin</artifactId>
-        <version>2.3.0</version>
+        <version>2.1.0</version>
         <configuration>
               <apiKey>d2a76052-4bc8-4891-94b7-413fda37dcbb</apiKey>
               <workspaceName>Default</workspaceName>
