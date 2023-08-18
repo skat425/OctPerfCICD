@@ -15,10 +15,10 @@
         <artifactId>octoperf-maven-plugin</artifactId>
         <version>2.3.0</version>
         <configuration>
-              <apiKey>${api}</apiKey>
-              <workspaceName>${workspace}</workspaceName>
-              <projectName>${project}</projectName>
-              <scenarioName>${scenario}</scenarioName>
+              <apiKey>d2a76052-4bc8-4891-94b7-413fda37dcbb</apiKey>
+              <workspaceName>Default</workspaceName>
+              <projectName>Sample Project</projectName>
+              <scenarioName>Whiptail Gulper</scenarioName>
             </configuration>
       </plugin>
     </plugins>
