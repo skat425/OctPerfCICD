@@ -55,7 +55,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
+    - name: Execute package
+      run: mvn package -f pom.xml
     - name: Execute Octoper Test Scenario
-      run: mvn com.octoperf:octoperf-maven-plugin:execute-scenario
+      run: mvn octoperf:execute-scenario
         #mvn package -Dapi=${{inputs.api_key}} -Dworkspace=${{inputs.workspace}} -Dproject=${{inputs.project}} -Dscenario=${{inputs.scenario}}
         
