@@ -26,15 +26,8 @@
 
   <!-- OctoPerf Maven Repository -->
   <pluginRepositories>
-    <pluginRepository>
-      <id>octoperf-snapshots</id>
-      <name>OctoPerf Snapshots</name>
-      <url>https://github.com/octoperf/maven-repository/raw/master/snapshots</url>
-    </pluginRepository>
-    <pluginRepository>
-      <id>octoperf-releases</id>
-      <name>OctoPerf Releases</name>
-      <url>https://github.com/octoperf/maven-repository/raw/master/releases</url>
-    </pluginRepository>
-  </pluginRepositories>
+   <pluginRepository> 
+      <id>maven2</id> 
+      <url>https://repo.maven.apache.org/maven2/</url> 
+    </pluginRepository> 
 </project>
