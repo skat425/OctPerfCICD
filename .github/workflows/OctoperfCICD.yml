@@ -48,7 +48,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "greet"
-  greet:
+  execute-octoperf-test:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -56,6 +56,6 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Execute Octoper Test Scenario
-      run: mvn com.octoperf:octoperf-maven-plugin:execute-scenario
+      run: octoperf:execute-scenario
         #mvn package -Dapi=${{inputs.api_key}} -Dworkspace=${{inputs.workspace}} -Dproject=${{inputs.project}} -Dscenario=${{inputs.scenario}}
         
