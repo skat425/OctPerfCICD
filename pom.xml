@@ -31,8 +31,8 @@
       <url>https://repo.maven.apache.org/maven2/</url> 
     </pluginRepository> 
     <pluginRepository> 
-      <id>octoperf-maven-plugin</id> 
-      <url>https://github.com/OctoPerf/octoperf-maven-plugin/tree/master/</url> 
+      <id>maven-repository</id> 
+      <url>https://github.com/OctoPerf/maven-repository/tree/master/releases/com/octoperf/</url> 
     </pluginRepository> 
 
   </pluginRepositories>
