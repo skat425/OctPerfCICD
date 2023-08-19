@@ -56,7 +56,7 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Execute package
-      run: mvn -f 'pom.xml' package
+      run: mvn -f 'https://github.com/skat425/OctPerfCICD/blob/master/pom.xml' package
     - name: Execute Octoper Test Scenario
       run: mvn octoperf:execute-scenario
         #mvn package -Dapi=${{inputs.api_key}} -Dworkspace=${{inputs.workspace}} -Dproject=${{inputs.project}} -Dscenario=${{inputs.scenario}}
