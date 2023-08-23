@@ -30,7 +30,7 @@
     <pluginRepository>
       <id>octoperf-releases</id>
       <name>OctoPerf Releases</name>
-      <url>https://github.com/OctoPerf/maven-repository/raw/master/releases</url>
+      <url>https://github.com/OctoPerf/octoperf-maven-plugin/releases/</url>
     </pluginRepository>
   </pluginRepositories>
 </project>
