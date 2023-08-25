@@ -58,6 +58,6 @@ jobs:
     #- name: Execute package
     #  run: mvn -f './pom.xml' clean install
     - name: Execute Octoper Test Scenario
-      run: mvn -f 'MasterProject' clean install octoperf:execute-scenario
+      run: mvn -f '/home/runner/work/OctPerfCICD/MasterProject' clean install octoperf:execute-scenario
         #mvn package -Dapi=${{inputs.api_key}} -Dworkspace=${{inputs.workspace}} -Dproject=${{inputs.project}} -Dscenario=${{inputs.scenario}}
         
